@@ -1,0 +1,149 @@
+{
+    "status": "ok",
+    "totalResults": 35,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": null
+            },
+            "author": null,
+            "title": null,
+            "description": null,
+            "url": null,
+            "urlToImage": null,
+            "publishedAt": null,
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hollywood Reporter"
+            },
+            "author": "James Hibberd",
+            "title": "Kevin Costner Breaks Silence On ‘Yellowstone’ Feud, Threatens Lawsuit - Hollywood Reporter",
+            "description": "The star weighs in on the production dispute while in court for his divorce hearing.",
+            "url": "https://www.hollywoodreporter.com/tv/tv-news/kevin-costner-yellowstone-7-seasons-1235580306/",
+            "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2023/09/kevin-costner-and-taylor-sheridan-Getty-Split-H-2023-1.jpg?w=1024",
+            "publishedAt": "2023-09-02T02:26:15Z",
+            "content": "Kevin Costner went on record for the first time, telling his side of the months-long dispute with the hit show Yellowstone. \r\nCostner testified at his divorce hearing on Friday, and the conversation … [+3783 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Gabon coup: Military chief says suspension of democracy only 'temporary' - BBC",
+            "description": "Gabon's main opposition accuses the military of showing no sign they plan to hand power back to civilian rule.",
+            "url": "https://www.bbc.com/news/world-africa-66691766",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/D1F0/production/_130944735_mediaitem130944732.jpg",
+            "publishedAt": "2023-09-01T23:51:12Z",
+            "content": "Gabon's new military leader has pledged to return the country to democracy, but has refused to provide a timelines for fresh elections. \r\nGen Brice Oligui Nguema said the country's state institutions… [+2210 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Aditya-L1: India set to launch its first mission to Sun - BBC",
+            "description": "Aditya-L1 comes just days after India made history by becoming the first to land near the Moon's south pole.",
+            "url": "https://www.bbc.com/news/world-asia-india-66643805",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/10AB7/production/_130897286_gettyimages-1406174121-170667a-1.jpg",
+            "publishedAt": "2023-09-01T23:21:16Z",
+            "content": "India is set to launch its first observation mission to the Sun, just days after the country made history by becoming the first to land near the Moon's south pole.\r\nAditya-L1 is due to blast off from… [+4402 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": null
+            },
+            "author": null,
+            "title": null,
+            "description": null,
+            "url": null,
+            "urlToImage": null,
+            "publishedAt": null,
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Ruby Franke: '8 Passengers' parenting mum arrested on child abuse suspicion - BBC",
+            "description": "The Utah vlogger's malnourished son escaped to her neighbour's home to seek help, police say.",
+            "url": "https://www.bbc.com/news/world-us-canada-66651506",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/E50C/production/_130963685_rubyfranke.jpg",
+            "publishedAt": "2023-09-01T23:04:33Z",
+            "content": "A Utah woman who ran a popular parenting advice YouTube channel is facing child abuse charges after her malnourished son escaped from home, officials said.\r\nRuby Franke and her business partner Jodi … [+3544 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": null
+            },
+            "author": null,
+            "title": null,
+            "description": null,
+            "url": null,
+            "urlToImage": null,
+            "publishedAt": null,
+            "content": null
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Tara Subramaniam, Taylor Ward, Nectar Gan, Jessie Yeung",
+            "title": "Hong Kong closes schools and cancels hundreds of flights as Typhoon Saola arrives - CNN",
+            "description": "Schools and businesses closed while hundreds of flights were canceled in Hong Kong and other parts of southern China on Friday as Typhoon Saola swept close to the coast, bringing strong winds and heavy rain in what could be the region’s strongest storm in fiv…",
+            "url": "https://www.cnn.com/2023/08/31/asia/hong-kong-china-macau-typhoon-saola-intl-hnk/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230831163127-01-hong-kong-preps-saola.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-09-01T22:40:00Z",
+            "content": "Schools and businesses closed while hundreds of flights were canceled in Hong Kong and other parts of southern China on Friday as Typhoon Saola swept close to the coast, bringing strong winds and hea… [+3453 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Students react to UNC Chapel Hill campus shooting - WJBF",
+            "description": ".Following a recent shooting at the University of North Carolina, students and faculty at local colleges are speaking out about security there.",
+            "url": "https://www.youtube.com/watch?v=OBby1xNbncM",
+            "urlToImage": "https://i.ytimg.com/vi/OBby1xNbncM/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgTyg5MA8=&rs=AOn4CLAG2TMv96RbfJIydiZD9rYb19Z6Ng",
+            "publishedAt": "2023-09-01T22:01:14Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "'Are you going to shoot me?’ Woman asks before police fatally shot her - NBC4 Columbus",
+            "description": "Footage from body-worn camera shows a pregnant woman asking police, “What, are you going to shoot me?” seconds before an officer fatally shot her outside a g...",
+            "url": "https://www.youtube.com/watch?v=JTyliVoUFDo",
+            "urlToImage": "https://i.ytimg.com/vi/JTyliVoUFDo/maxresdefault.jpg",
+            "publishedAt": "2023-09-01T21:15:36Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CBS Sports"
+            },
+            "author": "",
+            "title": "Stanford, Cal, SMU catch last train into the Power Four, but it's hardly the end of conference realignment - CBS Sports",
+            "description": "With four superconferences, realignment may be paused, but it's certainly not over",
+            "url": "https://www.cbssports.com/college-football/news/stanford-cal-smu-catch-last-train-into-the-power-four-but-its-hardly-the-end-of-conference-realignment/",
+            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2023/08/07/75930bc6-9686-4eca-94fc-ae74b3248e92/thumbnail/1200x675/55f89048b25ad2343e440e4d071c0c7f/cal-stanford-football-g.png",
+            "publishedAt": "2023-09-01T21:11:00Z",
+            "content": "The Power Four was born Friday on stacks of broken promises, backroom deals and bald-faced money grabbing. And those might have been the better qualities. You don't have to like it. You do have to ge… [+6159 chars]"
+        }
+    ]
+}
