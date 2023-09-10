@@ -6,7 +6,8 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 export default class News extends Component {
     static defaultProps = {
         category: "general",
-        country: "in"
+        country: "in",
+        query: null
     }
     static propTypes = {
         category: PropTypes.string,
@@ -20,8 +21,9 @@ export default class News extends Component {
     }
     async componentDidMount() {
         this.props.updateprogress(50)
+        let topic=!this.props.query? `top-headlines?country=${this.props.country}&category=${this.props.category}` : `everything?q=${this.props.query}`
         // this.setState({ loding: { display: "block" } });
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&pagesize=10&page=${this.state.pageno}`;
+        let url = `https://newsapi.org/v2/${topic}&apiKey=${this.props.apikey}&pagesize=12&page=${this.state.pageno}`;
 
         this.props.updateprogress(80)
         let data = await fetch(url);
@@ -30,7 +32,8 @@ export default class News extends Component {
         this.props.updateprogress(100)
     }
     fetchMoreData = async () => {
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&pagesize=10&page=${this.state.pageno + 1}`;
+        let topic=!this.props.query? `top-headlines?country=${this.props.country}&category=${this.props.category}` : `everything?q=${this.props.query}`
+        let url = `https://newsapi.org/v2/${topic}&apiKey=${this.props.apikey}&pagesize=12&page=${this.state.pageno + 1}`;
 
         let data = await fetch(url);
         let parsedata = await data.json();
@@ -41,7 +44,7 @@ export default class News extends Component {
     render() {
         return (
             <>
-                <h1 style={{ marginTop: "10px" }} className='page_title'>News 24 Top {this.props.category} Headlines</h1>
+                <h1 style={{ marginTop: "10px" }} className='page_title'>{this.props.pagetitle}</h1>
 
                 <InfiniteScroll
                     dataLength={this.state.articles.length}

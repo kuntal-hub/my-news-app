@@ -2,18 +2,16 @@ import React, { Component } from 'react'
 import { Link } from "react-router-dom";
 import logo_img from "./logo.png";
 export default class Navbar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { name: new Date(), time: "time", i: 1 }
-    this.state = { category: "Genarel" }
-  }
 
+  chenge =(event)=>{
+    this.props.updatequery(event.target.value)
+  }
   render() {
     return (
       <nav className="navbar navbar-expand-lg bg-secondary-subtle" style={{ position: 'sticky', top: '0px', left: '0px', zIndex: 1 }}>
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/"><img src={logo_img} alt="Logo" width="33" height="35" class="d-inline-block align-text-top" style={{marginRight:"5px"}}/>
-      NEWS 24</Link>
+          <Link className="navbar-brand" to="/"><img src={logo_img} alt="Logo" width="33" height="35" className="d-inline-block align-text-top" style={{ marginRight: "5px" }} />
+            NEWS 24</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -23,7 +21,7 @@ export default class Navbar extends Component {
                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/">Link</Link>
+                <Link className="nav-link " to="/">Link</Link>
               </li>
               <li className="nav-item dropdown">
                 <button className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,10 +39,10 @@ export default class Navbar extends Component {
               </li>
 
             </ul>
-            <form className="d-flex" role="search">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button className="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <div className="d-flex">
+              <input className="form-control me-2" placeholder="Search" id='search_bar' onChange={this.chenge}/>
+              <Link className="btn btn-outline-success" to={"/query"} >Search</Link>
+            </div>
           </div>
         </div>
       </nav>
